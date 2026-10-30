@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>工作台市场</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="header">
+    <span class="brand"><a href="/">工作台市场</a></span>
+    <nav class="nav">
+      <a href="/" class="active">浏览</a>
+      <a href="/submit">提交工作台</a>
+      <a href="/admin">后台管理</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>工作台市场</h1>
+    <p class="subtitle">浏览已收录的 DSH 工作台，安装到 DSH Desktop 后即可在会话与工作台之间切换。</p>
+
+    <div class="toolbar">
+      <select id="category-filter">
+        <option value="">全部分类</option>
+      </select>
+      <input id="search" type="search" placeholder="搜索名称、作者或分类" />
+    </div>
+
+    <div id="result" class="grid"></div>
+  </main>
+
+  <footer class="footer">工作台市场 · 本机托管</footer>
+  <script src="/app.js"></script>
+</body>
+</html>

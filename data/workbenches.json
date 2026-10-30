@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "workbenches": [
+    {
+      "status": "approved",
+      "submittedAt": "2026-10-27T00:00:00.000Z",
+      "updatedAt": "2026-10-27T00:00:00.000Z",
+      "id": "aloneatwar/dsh-explainroo",
+      "workbenchId": "wb-aloneatwar-dsh-explainroo",
+      "owner": "AloneAtWar",
+      "repository": "dsh-explainroo",
+      "url": "https://github.com/AloneAtWar/dsh-explainroo",
+      "name": "Explainroo 讲解视频工作台",
+      "nameEn": "Explainroo Video Workbench",
+      "description": {
+        "zh": "在 DSH 原生对话中创作讲稿，逐场预览和编辑画面，并导出讲解视频或分镜图。",
+        "en": "Create scripts with DSH's native chat, preview and edit scenes, and export explainer videos or storyboards."
+      },
+      "category": "content",
+      "version": "0.8.2",
+      "license": "MIT",
+      "distribution": {
+        "type": "github-release",
+        "url": "https://github.com/AloneAtWar/dsh-explainroo/releases/download/v0.8.2/dsh-explainroo.tgz",
+        "sha256": "242e7705abc794d948d5ab63bf84f52fa465518e4bf344aedabc9a584d1979c1",
+        "bytes": 412864,
+        "version": "0.8.2"
+      },
+      "screenshots": [
+        {
+          "url": "https://raw.githubusercontent.com/AloneAtWar/dsh-explainroo/ecc0076ec820d345dbb7e567d839dbb806f4047c/.github/screenshots/workbench.jpg",
+          "alt": "Explainroo 讲解视频工作台 截图 1",
+          "width": 904,
+          "height": 905,
+          "bytes": 79579,
+          "sha256": "1ddeef56f4a4d6332d44afd8bd368c42630460963624ca62ca3a6d72ae7e28a1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AloneAtWar/dsh-explainroo/ecc0076ec820d345dbb7e567d839dbb806f4047c/.github/screenshots/narration.jpg",
+          "alt": "Explainroo 讲解视频工作台 截图 2",
+          "width": 904,
+          "height": 905,
+          "bytes": 54081,
+          "sha256": "48404bc312f3faafc63bdd25185ac01abbea5f34f3a1fc6ab53c043f066db762"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/AloneAtWar/dsh-explainroo/ecc0076ec820d345dbb7e567d839dbb806f4047c/.github/screenshots/voice-settings.jpg",
+          "alt": "Explainroo 讲解视频工作台 截图 3",
+          "width": 904,
+          "height": 905,
+          "bytes": 69010,
+          "sha256": "70ff69a62d484f1807e64c18cb64b294c23585a0d4e6381b58056d4f520d7ca2"
+        }
+      ]
+    },
+    {
+      "status": "approved",
+      "submittedAt": "2026-10-27T00:00:00.000Z",
+      "updatedAt": "2026-10-27T00:00:00.000Z",
+      "id": "andoaidlaksldk/dsh-mind-workbench",
+      "workbenchId": "wb-andoaidlaksldk-dsh-mind-workbench",
+      "owner": "andoaidlaksldk",
+      "repository": "dsh-mind-workbench",
+      "url": "https://github.com/andoaidlaksldk/dsh-mind-workbench",
+      "name": "DSH 思维导图工作台",
+      "nameEn": "DSH Mind Workbench",
+      "description": {
+        "zh": "在 DSH Desktop 里创建、编辑与导出思维导图：完整画布支持节点操作、主题、结构、图标、关联线、概要、外框、标记、待办、公式、演示模式、大纲、小地图、水印与搜索替换，并提供导图文件（.smm，可再次导入）、图片（PNG）、SVG、PDF、Markdown、XMind、Txt、JSON 八种导出格式；文档保存在 DSH 数据目录，并可在会话中让 Agent 直接读写成导图。",
+        "en": "Create, edit and export mind maps inside DSH Desktop, with a full canvas (node editing, themes, layouts, icons, relationships, summaries, boundaries, markers, tasks, formulas, presentation mode, outline, minimap, watermark and find-and-replace) and eight export formats (mind-map file .smm, Image PNG, SVG, PDF, Markdown, XMind, Txt, JSON). Documents are stored in the DSH data directory, and the agent can read and write maps from the conversation."
+      },
+      "category": "productivity",
+      "version": "1.0.15",
+      "license": "MIT",
+      "distribution": {
+        "type": "github-release",
+        "url": "https://github.com/andoaidlaksldk/dsh-mind-workbench/releases/download/v1.0.15/dsh-mind-workbench.tgz",
+        "sha256": "c293cd7554c239d61d0dd1d0672c9413b9c0e5a80ddf58b473886b4ee2952d07",
+        "bytes": 2825083,
+        "version": "1.0.15"
+      },
+      "screenshots": [
+        {
+          "url": "https://raw.githubusercontent.com/andoaidlaksldk/dsh-mind-workbench/screenshots/docs/screenshots/overview.png",
+          "alt": "DSH 思维导图工作台 截图 1",
+          "width": 1600,
+          "height": 900,
+          "bytes": 70442,
+          "sha256": "cdd811ffa7bf959596b0f95a67ae7800f0aa1b78267ba29aa97555493e796392"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/andoaidlaksldk/dsh-mind-workbench/screenshots/docs/screenshots/radial.png",
+          "alt": "DSH 思维导图工作台 截图 2",
+          "width": 1600,
+          "height": 900,
+          "bytes": 57922,
+          "sha256": "0663d24423067b0474c6f25b84abbe98a7c4ebe1847a63f635a620be64518d19"
+        }
+      ]
+    },
+    {
+      "status": "approved",
+      "submittedAt": "2026-10-27T00:00:00.000Z",
+      "updatedAt": "2026-10-27T00:00:00.000Z",
+      "id": "andoaidlaksldk/dshdrawworkbench",
+      "workbenchId": "wb-andoaidlaksldk-dshdrawworkbench",
+      "owner": "andoaidlaksldk",
+      "repository": "DSHDrawWorkbench",
+      "url": "https://github.com/andoaidlaksldk/DSHDrawWorkbench",
+      "name": "DSH 画板",
+      "nameEn": "DSH Draw Workbench",
+      "description": {
+        "zh": "在 DSH Desktop 里画流程图、架构图、思维导图与手绘草图：形状与连线（直线、肘线、曲线）、画笔与橡皮擦、插入图片、Mermaid 与 Markdown 转画板，导出 PNG / SVG 图片与 .drawnix 文件；多块画板保存在 DSH 数据目录，并可在会话里让 Agent 直接读写成画板。",
+        "en": "Sketch flowcharts, architecture diagrams, mind maps and freehand drawings inside DSH Desktop, with shapes and connectors (straight, elbow, curve), pen and eraser, images, Mermaid and Markdown import, and export to PNG / SVG images and .drawnix files. Boards are stored in the DSH data directory, and the agent can read and write boards from the conversation."
+      },
+      "category": "productivity",
+      "version": "1.0.5",
+      "license": "MIT",
+      "distribution": {
+        "type": "github-release",
+        "url": "https://github.com/andoaidlaksldk/DSHDrawWorkbench/releases/download/v1.0.5/dsh-draw-workbench.tgz",
+        "sha256": "1a8b3a868d9ff6a8714ca23f6c9abf12d8af677c0d4ed12a3aff36c5a9133a2f",
+        "bytes": 1731971,
+        "version": "1.0.5"
+      },
+      "screenshots": [
+        {
+          "url": "https://raw.githubusercontent.com/andoaidlaksldk/DSHDrawWorkbench/main/docs/screenshots/overview.png",
+          "alt": "DSH 画板 截图 1",
+          "width": 1600,
+          "height": 900,
+          "bytes": 46199,
+          "sha256": "6faa765ca01ba99ab5e222c5d065a1fcb9f0b2582342341d10b6cad283157ca9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/andoaidlaksldk/DSHDrawWorkbench/main/docs/screenshots/architecture.png",
+          "alt": "DSH 画板 截图 2",
+          "width": 1600,
+          "height": 900,
+          "bytes": 42880,
+          "sha256": "aa8873897e8825a05c2b2585828c867519e66e51fc49a945dbe750c8a637b993"
+        }
+      ]
+    }
+  ]
+}

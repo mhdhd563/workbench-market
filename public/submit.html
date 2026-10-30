@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>提交工作台</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header class="header">
+    <span class="brand"><a href="/">工作台市场</a></span>
+    <nav class="nav">
+      <a href="/">浏览</a>
+      <a href="/submit" class="active">提交工作台</a>
+      <a href="/admin">后台管理</a>
+    </nav>
+  </header>
+
+  <main class="container" style="max-width: 820px;">
+    <h1 id="page-title">提交工作台</h1>
+    <p class="subtitle" id="page-subtitle">填写工作台信息，提交后进入审核队列，审核通过即出现在市场。</p>
+
+    <div id="message"></div>
+
+    <form class="form" id="workbench-form">
+      <div class="row">
+        <div class="field">
+          <label>GitHub 用户 / 组织 <span class="hint">owner</span></label>
+          <input id="owner" required placeholder="例如 dataelement" />
+        </div>
+        <div class="field">
+          <label>仓库名 <span class="hint">repository</span></label>
+          <input id="repository" required placeholder="例如 dsh-example" />
+        </div>
+      </div>
+      <div class="field">
+        <label>仓库 URL <span class="hint">自动生成，需与 owner/repository 一致</span></label>
+        <input id="url" required placeholder="https://github.com/owner/repository" />
+      </div>
+
+      <div class="row">
+        <div class="field">
+          <label>名称（中文）</label>
+          <input id="name" required />
+        </div>
+        <div class="field">
+          <label>名称（英文，可选）</label>
+          <input id="nameEn" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label>简介（中文）</label>
+        <textarea id="description-zh" required></textarea>
+      </div>
+      <div class="field">
+        <label>简介（英文）</label>
+        <textarea id="description-en" required></textarea>
+      </div>
+
+      <div class="row-3">
+        <div class="field">
+          <label>分类</label>
+          <select id="category" required></select>
+        </div>
+        <div class="field">
+          <label>版本 <span class="hint">完整 SemVer，如 1.2.0</span></label>
+          <input id="version" required placeholder="1.0.0" />
+        </div>
+        <div class="field">
+          <label>许可证</label>
+          <input id="license" required placeholder="MIT" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="field">
+          <label>旧版 workbenchId（可选）</label>
+          <input id="workbenchId" placeholder="wb-owner-repo" />
+        </div>
+        <div class="field">
+          <label>旧版 ID 列表（可选，逗号分隔）</label>
+          <input id="legacyWorkbenchIds" placeholder="legacy-a, legacy-b" />
+        </div>
+      </div>
+
+      <h2>分发方式</h2>
+      <div class="field">
+        <label>类型</label>
+        <select id="dist-type">
+          <option value="github-release">GitHub Release（.tgz）</option>
+          <option value="npm">npm 包</option>
+          <option value="github-source">GitHub 源码</option>
+        </select>
+      </div>
+      <div id="distribution-fields"></div>
+
+      <h2>截图</h2>
+      <p class="subtitle">至少一张。URL 必须为 HTTPS，sha256 为 64 位 hex。</p>
+      <div id="screenshots"></div>
+      <button type="button" class="btn" id="add-screenshot">+ 添加截图</button>
+
+      <div style="margin-top: 24px; display: flex; gap: 12px;">
+        <button type="submit" class="btn primary" id="submit-btn">提交审核</button>
+        <a class="btn" href="/">返回</a>
+      </div>
+    </form>
+  </main>
+
+  <script src="/submit.js"></script>
+</body>
+</html>
